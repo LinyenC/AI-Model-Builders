@@ -1,6 +1,6 @@
-﻿# HydroAgent
+﻿# AI-Model-Builders
 
-HydroAgent is the code accompanying a hydrologic model-structure search experiment. It uses a large language model as a candidate generator for process-level HBV structural changes, then compiles, validates, calibrates, and evaluates each candidate outside the LLM.
+AI-Model-Builders is the code accompanying a hydrologic model-structure search experiment. It uses a large language model as a candidate generator for process-level HBV structural changes, then compiles, validates, calibrates, and evaluates each candidate outside the LLM.
 
 ## What Is Included
 
