@@ -1,0 +1,20 @@
+﻿[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hydroagent"
+version = "0.3.2"
+description = "LLM-guided HBV process-structure search for CAMELS-US basins."
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "pandas",
+    "openai==2.42.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
